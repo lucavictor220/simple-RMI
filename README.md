@@ -60,3 +60,10 @@ On the screen should appear:
 
 - I followed official documentation of oracle [here](http://docs.oracle.com/javase/7/docs/technotes/guides/rmi/hello/hello-world.html). 
 - Read this about [env variables in java](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html) 
+
+### What I've learned
+
+- RMI registry must be run in the classes directory
+- Make sure you are not running another java processes on the same port. Kill all to make sure everything work properly.
+- Classpath is an important variable you should take care of. 
+- Codebase should point to classes directory
