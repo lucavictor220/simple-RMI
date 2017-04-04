@@ -42,10 +42,13 @@ cd bin
 
 # run rmiregistry
 rmiregistry &
+
 # navigate to root directory
 cd ..
+
 # run the Server
-java -classpath bin -Djava.rmi.server.codebase=file:bin/ example.hello.Server &
+java -classpath bin -Djava.rmi.server.codebase=file:bin/ example.hello.Server 
+
 # open a new tab and run the client
 java  -classpath bin example.hello.Client
 
